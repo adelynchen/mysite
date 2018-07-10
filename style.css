@@ -1,0 +1,46 @@
+/* p {
+  color: #e62b1e;
+} */
+body{
+  background-color: pink;
+}
+#container{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-family: "Impact";
+}
+#original{
+  font-size: 5em;
+  letter-spacing:.3em;
+  color: #fff;
+  transform: skewX(6deg);
+}
+#original::after{
+  content:"ADELYN CHEN";
+  position: absolute;
+  top: 9px;
+  left: 26px;
+  color: #bbb;
+  z-index: -1;
+  transform: rotateX(-46deg) skewX(-38deg);
+}
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
